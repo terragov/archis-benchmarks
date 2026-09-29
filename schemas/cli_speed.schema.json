@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/cli_speed.json",
+  "description": "Wall time of each chi command per repository: every pass, the median and the minimum.",
+  "type": "object",
+  "required": [
+    "chi",
+    "version",
+    "repos"
+  ],
+  "properties": {
+    "chi": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^chi \\d+\\.\\d+\\.\\d+$"
+    },
+    "machine": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "repos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "files",
+          "results"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "files": {
+            "type": "integer"
+          },
+          "results": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "argv",
+                "runs",
+                "median_s"
+              ],
+              "properties": {
+                "argv": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "runs": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 1
+                },
+                "median_s": {
+                  "type": "number"
+                },
+                "min_s": {
+                  "type": "number"
+                },
+                "exit_codes": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

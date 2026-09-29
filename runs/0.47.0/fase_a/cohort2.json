@@ -1,0 +1,37 @@
+[
+  {
+    "id": "syncthing",
+    "cold_index_s": 1.6722,
+    "hash_stable": true,
+    "reduction": 0.7366579984602994,
+    "incremental_equiv": true
+  },
+  {
+    "id": "okhttp",
+    "cold_index_s": 1.901,
+    "hash_stable": true,
+    "reduction": 0.7132072291610339,
+    "incremental_equiv": true
+  },
+  {
+    "id": "ktor",
+    "cold_index_s": 4.4355,
+    "hash_stable": true,
+    "reduction": 0.6696026428002437,
+    "incremental_equiv": true
+  },
+  {
+    "id": "serde",
+    "cold_index_s": 1.1923,
+    "hash_stable": true,
+    "reduction": 0.7567557829502054,
+    "incremental_equiv": null
+  },
+  {
+    "id": "serilog",
+    "cold_index_s": 0.6455,
+    "hash_stable": true,
+    "reduction": 0.6937733419506347,
+    "incremental_equiv": true
+  }
+]

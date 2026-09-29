@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "gin",
+    "language": "go",
+    "url": "https://github.com/gin-gonic/gin",
+    "pin": "v1.10.0",
+    "cohort": 1,
+    "license": "MIT"
+  },
+  {
+    "id": "caddy",
+    "language": "go",
+    "url": "https://github.com/caddyserver/caddy",
+    "pin": "v2.8.4",
+    "cohort": 1,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "prometheus",
+    "language": "go",
+    "url": "https://github.com/prometheus/prometheus",
+    "pin": "v2.54.1",
+    "cohort": 1,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "arch-samples",
+    "language": "kotlin",
+    "url": "https://github.com/android/architecture-samples",
+    "pin": null,
+    "cohort": 1,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "detekt",
+    "language": "kotlin",
+    "url": "https://github.com/detekt/detekt",
+    "pin": null,
+    "cohort": 1,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "coroutines",
+    "language": "kotlin",
+    "url": "https://github.com/Kotlin/kotlinx.coroutines",
+    "pin": null,
+    "cohort": 1,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "syncthing",
+    "language": "go",
+    "url": "https://github.com/syncthing/syncthing",
+    "pin": null,
+    "cohort": 2,
+    "license": "MPL-2.0"
+  },
+  {
+    "id": "okhttp",
+    "language": "kotlin",
+    "url": "https://github.com/square/okhttp",
+    "pin": null,
+    "cohort": 2,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "ktor",
+    "language": "kotlin",
+    "url": "https://github.com/ktorio/ktor",
+    "pin": null,
+    "cohort": 2,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kubernetes",
+    "language": "go",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "pin": null,
+    "cohort": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kotlin",
+    "language": "kotlin",
+    "url": "https://github.com/JetBrains/kotlin",
+    "pin": null,
+    "cohort": 3,
+    "license": "NONE"
+  },
+  {
+    "id": "serde",
+    "language": "rust",
+    "url": "https://github.com/serde-rs/serde",
+    "pin": "HEAD",
+    "cohort": 2,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "serilog",
+    "language": "csharp",
+    "url": "https://github.com/serilog/serilog",
+    "pin": "HEAD",
+    "cohort": 2,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "nest",
+    "language": "typescript",
+    "url": "https://github.com/nestjs/nest",
+    "pin": "v11.1.28",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "vue-core",
+    "language": "typescript",
+    "url": "https://github.com/vuejs/core",
+    "pin": "v3.5.40",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "angular",
+    "language": "typescript",
+    "url": "https://github.com/angular/angular",
+    "pin": "v22.0.8",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "django",
+    "language": "python",
+    "url": "https://github.com/django/django",
+    "pin": "5.2.8",
+    "cohort": 4,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "fastapi",
+    "language": "python",
+    "url": "https://github.com/fastapi/fastapi",
+    "pin": "0.140.10",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "flask",
+    "language": "python",
+    "url": "https://github.com/pallets/flask",
+    "pin": "3.1.3",
+    "cohort": 4,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "spring-boot",
+    "language": "java",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "pin": "v4.1.0",
+    "cohort": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "guava",
+    "language": "java",
+    "url": "https://github.com/google/guava",
+    "pin": "v33.6.0",
+    "cohort": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "rxjava",
+    "language": "java",
+    "url": "https://github.com/ReactiveX/RxJava",
+    "pin": "v3.1.11",
+    "cohort": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "powershell",
+    "language": "csharp",
+    "url": "https://github.com/PowerShell/PowerShell",
+    "pin": "v7.6.4",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "avalonia",
+    "language": "csharp",
+    "url": "https://github.com/AvaloniaUI/Avalonia",
+    "pin": "12.1.0",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "newtonsoft-json",
+    "language": "csharp",
+    "url": "https://github.com/JamesNK/Newtonsoft.Json",
+    "pin": "13.0.4",
+    "cohort": 4,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "nvm",
+    "language": "bash",
+    "url": "https://github.com/nvm-sh/nvm",
+    "pin": "v0.40.6",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "neofetch",
+    "language": "bash",
+    "url": "https://github.com/dylanaraps/neofetch",
+    "pin": "7.1.0",
+    "cohort": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "tf-aws-vpc",
+    "language": "hcl",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
+    "pin": "v6.6.1",
+    "cohort": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "tf-aws-eks",
+    "language": "hcl",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+    "pin": "v21.24.0",
+    "cohort": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "swift-argument-parser",
+    "language": "swift",
+    "url": "https://github.com/apple/swift-argument-parser",
+    "pin": "2f77f2fccb6e84fecff338c37b199e33e7dfd119",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "swift-tagged",
+    "language": "swift",
+    "url": "https://github.com/pointfreeco/swift-tagged",
+    "pin": "6a8517578035408b6c14ccba00ee990a1435515c",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "swift-collections",
+    "language": "swift",
+    "url": "https://github.com/apple/swift-collections",
+    "pin": "ff27e3678ddb895ebf917ce513f3105395078dae",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "alamofire",
+    "language": "swift",
+    "url": "https://github.com/Alamofire/Alamofire",
+    "pin": "0455bfb650893e86ad07ace16e5f2d36dadf46f4",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "swift",
+    "language": "swift",
+    "url": "https://github.com/swiftlang/swift",
+    "pin": "1f52e6384c7b59aba5e13a617900117559dad8e2",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "telegram-ios",
+    "language": "swift",
+    "url": "https://github.com/TelegramMessenger/Telegram-iOS",
+    "pin": "6ad963e5b62d354da79040f388ae2b9132fb17b8",
+    "cohort": 5,
+    "license": "NONE"
+  },
+  {
+    "id": "swift-nio",
+    "language": "swift",
+    "url": "https://github.com/apple/swift-nio",
+    "pin": "8c063f043d94c120d0f8d6303ef4fc7918e3561d",
+    "cohort": 12,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "swift-composable-architecture",
+    "language": "swift",
+    "url": "https://github.com/pointfreeco/swift-composable-architecture",
+    "pin": "377da4061db10d26337a71bb279c506bb951f50f",
+    "cohort": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "dart-web",
+    "language": "dart",
+    "url": "https://github.com/dart-lang/web",
+    "pin": "f1b9d561850355efd81b24fdbfd226dbe805d415",
+    "cohort": 5,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "vaden",
+    "language": "dart",
+    "url": "https://github.com/Flutterando/vaden",
+    "pin": "647379af4b3f1bb33466474538e3ee16547dd85b",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "drift",
+    "language": "dart",
+    "url": "https://github.com/simolus3/drift",
+    "pin": "f9f4eba656c1724999c4fc015ac051162dd17a23",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "localsend",
+    "language": "dart",
+    "url": "https://github.com/localsend/localsend",
+    "pin": "c021834b39c41cf7c6b4d9450453e5dc42696314",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dart-sdk",
+    "language": "dart",
+    "url": "https://github.com/dart-lang/sdk",
+    "pin": "f300393bdf6136f4be35d877763ab73c7c715647",
+    "cohort": 5,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "flutter",
+    "language": "dart",
+    "url": "https://github.com/flutter/flutter",
+    "pin": "de01d5daa62dcb2fd0378d55206c91e4cf008923",
+    "cohort": 5,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "dry-monads",
+    "language": "ruby",
+    "url": "https://github.com/dry-rb/dry-monads",
+    "pin": "9039d58b1c0fb82a27410e1bb5b9a5e20303f86f",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "secure_headers",
+    "language": "ruby",
+    "url": "https://github.com/github/secure_headers",
+    "pin": "e62871dcf6aa91bce53b7fbd6ea8667e6c3f25cc",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "jekyll",
+    "language": "ruby",
+    "url": "https://github.com/jekyll/jekyll",
+    "pin": "7697d249793d6c48c66a7293310a718aec01f660",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "brew",
+    "language": "ruby",
+    "url": "https://github.com/Homebrew/brew",
+    "pin": "2a2dac58e6213e6b54e4bf989c0995e999f3db90",
+    "cohort": 5,
+    "license": "BSD-2-Clause"
+  },
+  {
+    "id": "rails",
+    "language": "ruby",
+    "url": "https://github.com/rails/rails",
+    "pin": "aea7861375d584b4e3f6036940d009986d8cc757",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "gitlabhq",
+    "language": "ruby",
+    "url": "https://github.com/gitlabhq/gitlabhq",
+    "pin": "1d31c6f29bfc064c6926809923721e69f5690aa5",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "nimble_csv",
+    "language": "elixir",
+    "url": "https://github.com/dashbitco/nimble_csv",
+    "pin": "8cc4e68151975e5ff6eb1ad4a738a728bcb17a1e",
+    "cohort": 5,
+    "license": "NONE"
+  },
+  {
+    "id": "plug_crypto",
+    "language": "elixir",
+    "url": "https://github.com/elixir-plug/plug_crypto",
+    "pin": "cdbd36c0add6ede5c5e277980c104fc90aefc0be",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "ecto",
+    "language": "elixir",
+    "url": "https://github.com/elixir-ecto/ecto",
+    "pin": "e7144cd5c72fe13f77bf31fa54c41cc354643491",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "phoenix",
+    "language": "elixir",
+    "url": "https://github.com/phoenixframework/phoenix",
+    "pin": "1abb125bf22610a4c38b773b537186902bc5b576",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "elixir",
+    "language": "elixir",
+    "url": "https://github.com/elixir-lang/elixir",
+    "pin": "a9021b1c8d932fd5cf2339e4536c5c9ef024003f",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "plausible-analytics",
+    "language": "elixir",
+    "url": "https://github.com/plausible/analytics",
+    "pin": "8b7491834d468e8b840077180a6b3366c061775f",
+    "cohort": 5,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "os-lib",
+    "language": "scala",
+    "url": "https://github.com/com-lihaoyi/os-lib",
+    "pin": "86e5ddb65fe62305afb5885fcc0f8da50aba4b48",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "cats-parse",
+    "language": "scala",
+    "url": "https://github.com/typelevel/cats-parse",
+    "pin": "e04c0619ad58fe971aaefca152bd36f14e49eda4",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "cats-effect",
+    "language": "scala",
+    "url": "https://github.com/typelevel/cats-effect",
+    "pin": "0b7b40b96c6267f2cdc510754d3aeb080e2a9e8f",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "zio",
+    "language": "scala",
+    "url": "https://github.com/zio/zio",
+    "pin": "b346b8b374057811e6474ab5f86c14b1bfbba777",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "spark",
+    "language": "scala",
+    "url": "https://github.com/apache/spark",
+    "pin": "1222a59fa61965f50f35443f70db8d6821ea0bc1",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "lila",
+    "language": "scala",
+    "url": "https://github.com/lichess-org/lila",
+    "pin": "924f2d2a5d7555a4cf54d6bc8a4e9227ec453adb",
+    "cohort": 5,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "lua-classic",
+    "language": "lua",
+    "url": "https://github.com/rxi/classic",
+    "pin": "e5610756c98ac2f8facd7ab90c94e1a097ecd2c6",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "inspect.lua",
+    "language": "lua",
+    "url": "https://github.com/kikito/inspect.lua",
+    "pin": "a8ca3120dfec48801036eaeff9335ab7a096dd24",
+    "cohort": 5,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "plenary.nvim",
+    "language": "lua",
+    "url": "https://github.com/nvim-lua/plenary.nvim",
+    "pin": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+    "cohort": 11,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "nvim-lspconfig",
+    "language": "lua",
+    "url": "https://github.com/neovim/nvim-lspconfig",
+    "pin": "1c0d8f70dbc8827263eedc3cf7021ceba0f68689",
+    "cohort": 11,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kong",
+    "language": "lua",
+    "url": "https://github.com/Kong/kong",
+    "pin": "391ee48d3a68e8d0bbd0405ec1d02d75f768aa92",
+    "cohort": 11,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "apisix",
+    "language": "lua",
+    "url": "https://github.com/apache/apisix",
+    "pin": "906d883e6ef865f238d1911efca71ad5e8931d75",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "powershellget",
+    "language": "powershell",
+    "url": "https://github.com/PowerShell/PowerShellGet",
+    "pin": "a2dac8e74603f7c9eec4a54c5e23459531751b0d",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "runner-images",
+    "language": "powershell",
+    "url": "https://github.com/actions/runner-images",
+    "pin": "8d3ea005fa2d87f3cbc9255c27fdfed9e901a043",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "pester",
+    "language": "powershell",
+    "url": "https://github.com/pester/Pester",
+    "pin": "d16bda35a5f1acef5a072ca572a2b71cd1386a24",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "psreadline",
+    "language": "powershell",
+    "url": "https://github.com/PowerShell/PSReadLine",
+    "pin": "2984546f62da9f63c31aba965ec3008fcb107024",
+    "cohort": 5,
+    "license": "BSD-2-Clause"
+  },
+  {
+    "id": "dbatools",
+    "language": "powershell",
+    "url": "https://github.com/dataplat/dbatools",
+    "pin": "343cd853c0c9e3ffe5f40c54414a369f8a0134d8",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "azure-powershell",
+    "language": "powershell",
+    "url": "https://github.com/Azure/azure-powershell",
+    "pin": "b79bafa8c872f086a6d451f9cfa08f84b2d0f336",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "known-folders",
+    "language": "zig",
+    "url": "https://github.com/ziglibs/known-folders",
+    "pin": "6da0d0c41b78b9ed2d34fa364fcb81b5ebece6c4",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "zig-clap",
+    "language": "zig",
+    "url": "https://github.com/Hejsil/zig-clap",
+    "pin": "e91d66b1abba2024cd2e816426f14d233d3dad9a",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "bun",
+    "language": "zig",
+    "url": "https://github.com/oven-sh/bun",
+    "pin": "54bbd5dd966005d7a587d3d3fac63aae5711593d",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "libxev",
+    "language": "zig",
+    "url": "https://github.com/mitchellh/libxev",
+    "pin": "9ce8e8e6ff89e583258a7f8e7adeeeaeae8611bf",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "zig",
+    "language": "zig",
+    "url": "https://github.com/ziglang/zig",
+    "pin": "738d2be9d6b6ef3ff3559130c05159ef53336224",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "tigerbeetle",
+    "language": "zig",
+    "url": "https://github.com/tigerbeetle/tigerbeetle",
+    "pin": "97c7a8ef385270ebe0e1b75959d3d21d134629df",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "hermitage",
+    "language": "sql",
+    "url": "https://github.com/ept/hermitage",
+    "pin": "f029bec8e32af6a9506508638fdf74ef61286225",
+    "cohort": 5,
+    "license": "NONE"
+  },
+  {
+    "id": "pgroll",
+    "language": "sql",
+    "url": "https://github.com/xataio/pgroll",
+    "pin": "1c1b664503914719a4f2be22c1570ffc2639f8a3",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "liquibase-test-harness",
+    "language": "sql",
+    "url": "https://github.com/liquibase/liquibase-test-harness",
+    "pin": "ebd37e24b66ec82c0a040ad927967ca4641aa9db",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "flyway",
+    "language": "sql",
+    "url": "https://github.com/flyway/flyway",
+    "pin": "8dc991b53202325bfd72385b40328382f526b3a0",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "supabase",
+    "language": "sql",
+    "url": "https://github.com/supabase/supabase",
+    "pin": "3a3661019f4f7dd79a5941bc379741bf45396047",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "sql-server-samples",
+    "language": "sql",
+    "url": "https://github.com/microsoft/sql-server-samples",
+    "pin": "1ab31bc560415b570d57bb5ff9896f4698891321",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "graphql-spec",
+    "language": "graphql",
+    "url": "https://github.com/graphql/graphql-spec",
+    "pin": "bf95fc4e578966fad74ef0909445e12bcd806b06",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "graphql-over-http",
+    "language": "graphql",
+    "url": "https://github.com/graphql/graphql-over-http",
+    "pin": "4d447e90519e2eb2f9b1dfa61bb1b6afc82decd3",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "graphql-java",
+    "language": "graphql",
+    "url": "https://github.com/graphql-java/graphql-java",
+    "pin": "5d22f31383d74d22f43334db32897ff3d49c8ff7",
+    "cohort": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "apollo-kotlin",
+    "language": "graphql",
+    "url": "https://github.com/apollographql/apollo-kotlin",
+    "pin": "e7a7fc352ff3ed665d1f87e826fea547b9adfbd8",
+    "cohort": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "hasura-graphql-engine",
+    "language": "graphql",
+    "url": "https://github.com/hasura/graphql-engine",
+    "pin": "742ffcf93c32730a79efe4e577067b473959b7ff",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "saleor",
+    "language": "graphql",
+    "url": "https://github.com/saleor/saleor",
+    "pin": "224bf29fb39fd14645a5adfda42008ea5fb8d799",
+    "cohort": 9,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "kotlin-dsl-samples",
+    "language": "groovy",
+    "url": "https://github.com/gradle/kotlin-dsl-samples",
+    "pin": "a04623476a40bf0716e657ef2f856676a4832880",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "gradle-build-scan-quickstart",
+    "language": "groovy",
+    "url": "https://github.com/gradle/gradle-build-scan-quickstart",
+    "pin": "7ef158fe896ae25a4997cabcbb5a1feb7b958ac1",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "spring-petclinic",
+    "language": "groovy",
+    "url": "https://github.com/spring-projects/spring-petclinic",
+    "pin": "88e37c15cf6fc8490b01bc3e8e2c800cec1ac272",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "gradle-profiler",
+    "language": "groovy",
+    "url": "https://github.com/gradle/gradle-profiler",
+    "pin": "289d41ae2e5caa833986333c0563efdf860d51cc",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "gradle",
+    "language": "groovy",
+    "url": "https://github.com/gradle/gradle",
+    "pin": "a585d280755626ab79334167a9b7a845c9fcca96",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "elasticsearch",
+    "language": "groovy",
+    "url": "https://github.com/elastic/elasticsearch",
+    "pin": "b1984243d4f1e7fc7d6c5ad0230fddde1c4c9cf0",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "maven-mvnd",
+    "language": "xml",
+    "url": "https://github.com/apache/maven-mvnd",
+    "pin": "8b4c2818902d0adb28a64bfaf25b1ff93614f219",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "maven-wrapper",
+    "language": "xml",
+    "url": "https://github.com/apache/maven-wrapper",
+    "pin": "91b03d9f14c434e16f893e08d37e86b918f610c7",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "maven",
+    "language": "xml",
+    "url": "https://github.com/apache/maven",
+    "pin": "298902c30cb26b47f408787f3525b80046811e83",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "junit5",
+    "language": "xml",
+    "url": "https://github.com/junit-team/junit5",
+    "pin": "2dd4145a64edfe4a97d341ac1ff592d4e10f4a67",
+    "cohort": 5,
+    "license": "EPL-2.0"
+  },
+  {
+    "id": "spring-framework",
+    "language": "xml",
+    "url": "https://github.com/spring-projects/spring-framework",
+    "pin": "eceebb3077dda9e1b19d73c0398ef022cd91f99c",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "flink",
+    "language": "xml",
+    "url": "https://github.com/apache/flink",
+    "pin": "78358442b68bfc4ee99e02f7f6aaac17e20cc175",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "docker-getting-started",
+    "language": "dockerfile",
+    "url": "https://github.com/docker/getting-started",
+    "pin": "94d4031393bf8ebfd38aae640910f9435579d76b",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "awesome-compose",
+    "language": "dockerfile",
+    "url": "https://github.com/docker/awesome-compose",
+    "pin": "30f4b7f6a6c3b0c0ecf4d4efb0de203c48d11562",
+    "cohort": 5,
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "realworld",
+    "language": "dockerfile",
+    "url": "https://github.com/gothinkster/realworld",
+    "pin": "98f29fb3f8bcb1dd614b91f2851371bf22c34775",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "immich",
+    "language": "dockerfile",
+    "url": "https://github.com/immich-app/immich",
+    "pin": "cafd6c7c0f12add9b2c0f06a0cc1c26ef26e2756",
+    "cohort": 5,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "docker-compose",
+    "language": "dockerfile",
+    "url": "https://github.com/docker/compose",
+    "pin": "2fa7a294abc883d8dfa1f4ac0dcc3825c42c1eda",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "moby",
+    "language": "dockerfile",
+    "url": "https://github.com/moby/moby",
+    "pin": "c5b8ce9274b5c00cb1f8287c8e258edc1f01176d",
+    "cohort": 8,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "podinfo",
+    "language": "yaml",
+    "url": "https://github.com/stefanprodan/podinfo",
+    "pin": "eec06d1ea459af4cb4e10e806f8be7c7bd58b361",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "helm-examples",
+    "language": "yaml",
+    "url": "https://github.com/helm/examples",
+    "pin": "4888ba8fb8180dd0c36d1e84c1fcafc6efd81532",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "bitnami-charts",
+    "language": "yaml",
+    "url": "https://github.com/bitnami/charts",
+    "pin": "7c3493cf594d61763661c7444ea4539e9102b846",
+    "cohort": 5,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "prometheus-helm-charts",
+    "language": "yaml",
+    "url": "https://github.com/prometheus-community/helm-charts",
+    "pin": "3510bbc1c75b285400b6aa995ad390ba83b89dc1",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "openshift-origin",
+    "language": "yaml",
+    "url": "https://github.com/openshift/origin",
+    "pin": "e3c4a6bb8ca2c8d8a02ac3924b7b56b4c3c377e5",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "hello-world-javascript-action",
+    "language": "yaml",
+    "url": "https://github.com/actions/hello-world-javascript-action",
+    "pin": "79ac0da13ee392da3fdd151813d5ce4658cb7e27",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "setup-python",
+    "language": "yaml",
+    "url": "https://github.com/actions/setup-python",
+    "pin": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "actions-cache",
+    "language": "yaml",
+    "url": "https://github.com/actions/cache",
+    "pin": "3edfce9056124e459a23f683a21433670d47daca",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "super-linter",
+    "language": "yaml",
+    "url": "https://github.com/github/super-linter",
+    "pin": "ce838ab356d25fc8e83a16fa6d1fc6f583e14e87",
+    "cohort": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "rust",
+    "language": "yaml",
+    "url": "https://github.com/rust-lang/rust",
+    "pin": "28c66af27578a28bc8cad1c5957be4b1e2e7fb8b",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "openapi-specification",
+    "language": "proto",
+    "url": "https://github.com/OAI/OpenAPI-Specification",
+    "pin": "5423da4b0c16a563a7226663018fcd9294be279d",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "swagger-petstore",
+    "language": "proto",
+    "url": "https://github.com/swagger-api/swagger-petstore",
+    "pin": "8f0dd286987880b4af7bce552aca3813166f3049",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "protovalidate",
+    "language": "proto",
+    "url": "https://github.com/bufbuild/protovalidate",
+    "pin": "9605613b30831cd8f08838e58c37da786dcb1506",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "grpc-proto",
+    "language": "proto",
+    "url": "https://github.com/grpc/grpc-proto",
+    "pin": "99135b19189588fcc787acb84cff27991787473d",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "googleapis",
+    "language": "proto",
+    "url": "https://github.com/googleapis/googleapis",
+    "pin": "3f9c9d72cb20768ca4ac9f12030faaf43b13c231",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kubernetes-api",
+    "language": "proto",
+    "url": "https://github.com/kubernetes/api",
+    "pin": "a9c6d6c7c5a6a319844d4bd0631fc3b28de3a407",
+    "cohort": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "express",
+    "language": "javascript",
+    "url": "https://github.com/expressjs/express",
+    "pin": "bed501c695a61886399ee622875f3be933c716d8",
+    "cohort": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "axios",
+    "language": "javascript",
+    "url": "https://github.com/axios/axios",
+    "pin": "1226e6c53eeb0e9d7159bea83556c2ff117b5f2e",
+    "cohort": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "mongoose",
+    "language": "javascript",
+    "url": "https://github.com/Automattic/mongoose",
+    "pin": "86292f094a9624e039218bcf43b4855146bcea37",
+    "cohort": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "winston",
+    "language": "javascript",
+    "url": "https://github.com/winstonjs/winston",
+    "pin": "ff0b79de8562bb322c390fbc82fe71c11f373428",
+    "cohort": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "eslint",
+    "language": "javascript",
+    "url": "https://github.com/eslint/eslint",
+    "pin": "26d11bce3e0e21f223613d4bb4be3423839b229e",
+    "cohort": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "ant",
+    "language": "xml",
+    "url": "https://github.com/apache/ant",
+    "pin": "803411d1b9f9eae433abe555c580b4b05d5e80a8",
+    "cohort": 7,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "docbook-xsl",
+    "language": "xml",
+    "url": "https://github.com/docbook/xslt10-stylesheets",
+    "pin": "ee371b71fb63082c3cd2f1e3b00c7daa3c85649e",
+    "cohort": 7,
+    "license": "NONE"
+  },
+  {
+    "id": "mybatis-3",
+    "language": "xml",
+    "url": "https://github.com/mybatis/mybatis-3",
+    "pin": "ee0d4f4831ffdd311b0183c202f4ad6492a3f404",
+    "cohort": 7,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "msbuild",
+    "language": "xml",
+    "url": "https://github.com/dotnet/msbuild",
+    "pin": "25f168cee22fc5419a38fc8d2ffb6a8c0381b7a0",
+    "cohort": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "docker-postgres",
+    "language": "dockerfile",
+    "url": "https://github.com/docker-library/postgres",
+    "pin": "4a1f78ff7e7a6e7ecb6a584c540c07946ad66e80",
+    "cohort": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "docker-php",
+    "language": "dockerfile",
+    "url": "https://github.com/docker-library/php",
+    "pin": "cdf0da2be61ba1fb0f8710ace89333b27693967b",
+    "cohort": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "podman",
+    "language": "dockerfile",
+    "url": "https://github.com/containers/podman",
+    "pin": "e967db5f23d65df653790547ec6146fe8ccabd9f",
+    "cohort": 8,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "compose",
+    "language": "dockerfile",
+    "url": "https://github.com/docker/compose",
+    "pin": "e9491499f116984e00b89a39b53a8b28d33ad4c7",
+    "cohort": 8,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kubespray",
+    "language": "yaml",
+    "url": "https://github.com/kubernetes-sigs/kubespray",
+    "pin": "5be4b0a9fe5211ed4d68f69178046a6029dfb5b2",
+    "cohort": 10,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "grafana",
+    "language": "yaml",
+    "url": "https://github.com/grafana/grafana",
+    "pin": "1ac6e917a188772785e1d8fe7963f5fcb201c89f",
+    "cohort": 10,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "graphql-js",
+    "language": "graphql",
+    "url": "https://github.com/graphql/graphql-js",
+    "pin": "ee5ce41d4b68d1852306d3b56dba2cbbb6c43fea",
+    "cohort": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "apollo-client",
+    "language": "graphql",
+    "url": "https://github.com/apollographql/apollo-client",
+    "pin": "70e3a11d93c8ef8d64aa2a7d12b02b773a57c7ca",
+    "cohort": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "spock",
+    "language": "groovy",
+    "url": "https://github.com/spockframework/spock",
+    "pin": "37e5e9a663ac6bc1ed1f72ac8374a81b879c66b0",
+    "cohort": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "grails-core",
+    "language": "groovy",
+    "url": "https://github.com/grails/grails-core",
+    "pin": "09806234819f4fac1db971c54ceb731cf704f50f",
+    "cohort": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "groovy",
+    "language": "groovy",
+    "url": "https://github.com/apache/groovy",
+    "pin": "0f06888daaa75285042c3a5032bd2f1044459508",
+    "cohort": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "ratpack",
+    "language": "groovy",
+    "url": "https://github.com/ratpack/ratpack",
+    "pin": "cc0e5a87474154cdab9b86397cb72f2ede39757b",
+    "cohort": 9,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "neovim",
+    "language": "lua",
+    "url": "https://github.com/neovim/neovim",
+    "pin": "d039f19af54e73e1f076c29f1cb412c14612da07",
+    "cohort": 11,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "lazy.nvim",
+    "language": "lua",
+    "url": "https://github.com/folke/lazy.nvim",
+    "pin": "306a05526ada86a7b30af95c5cc81ffba93fef97",
+    "cohort": 11,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "bats-core",
+    "language": "bash",
+    "url": "https://github.com/bats-core/bats-core",
+    "pin": null,
+    "cohort": 13,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "ohmyzsh",
+    "language": "bash",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "pin": null,
+    "cohort": 13,
+    "license": "MIT"
+  },
+  {
+    "id": "terraform",
+    "language": "hcl",
+    "url": "https://github.com/hashicorp/terraform",
+    "pin": "v1.16.2",
+    "cohort": 12,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "terragrunt",
+    "language": "hcl",
+    "url": "https://github.com/gruntwork-io/terragrunt",
+    "pin": "v1.1.4",
+    "cohort": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "packer",
+    "language": "hcl",
+    "url": "https://github.com/hashicorp/packer",
+    "pin": "v1.16.0",
+    "cohort": 12,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "jq",
+    "language": "c",
+    "url": "https://github.com/jqlang/jq",
+    "pin": "jq-1.7.1",
+    "cohort": 14,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "libuv",
+    "language": "c",
+    "url": "https://github.com/libuv/libuv",
+    "pin": "v1.51.0",
+    "cohort": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "redis",
+    "language": "c",
+    "url": "https://github.com/redis/redis",
+    "pin": "7.4.2",
+    "cohort": 14,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "curl",
+    "language": "c",
+    "url": "https://github.com/curl/curl",
+    "pin": "curl-8_11_1",
+    "cohort": 14,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "git",
+    "language": "c",
+    "url": "https://github.com/git/git",
+    "pin": "v2.47.1",
+    "cohort": 14,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "bulma",
+    "language": "css",
+    "url": "https://github.com/jgthms/bulma",
+    "pin": "1.0.4",
+    "cohort": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "animate.css",
+    "language": "css",
+    "url": "https://github.com/animate-css/animate.css",
+    "pin": "v4.1.1",
+    "cohort": 16,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "open-props",
+    "language": "css",
+    "url": "https://github.com/argyleink/open-props",
+    "pin": "v1.6.0",
+    "cohort": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "tailwindcss",
+    "language": "css",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "pin": "v4.3.3",
+    "cohort": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "Font-Awesome",
+    "language": "css",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "pin": "6.7.2",
+    "cohort": 16,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "bootstrap",
+    "language": "html",
+    "url": "https://github.com/twbs/bootstrap",
+    "pin": "v5.3.3",
+    "cohort": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "htmx",
+    "language": "html",
+    "url": "https://github.com/bigskysoftware/htmx",
+    "pin": "v2.0.4",
+    "cohort": 16,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "aria-practices",
+    "language": "html",
+    "url": "https://github.com/w3c/aria-practices",
+    "pin": "7e4034b",
+    "cohort": 16,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "AdminLTE",
+    "language": "html",
+    "url": "https://github.com/ColorlibHQ/AdminLTE",
+    "pin": "v3.2.0",
+    "cohort": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "wpt",
+    "language": "html",
+    "url": "https://github.com/web-platform-tests/wpt",
+    "pin": "1a21db9",
+    "cohort": 16,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "protobuf",
+    "language": "proto",
+    "url": "https://github.com/protocolbuffers/protobuf",
+    "pin": "06c6ebf019ab547b8dbafdd5dfe35f056b713a8e",
+    "cohort": 9,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "data-plane-api",
+    "language": "proto",
+    "url": "https://github.com/envoyproxy/data-plane-api",
+    "pin": "7bcc5877447733a8140253b0bb88ec640ebcd394",
+    "cohort": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "cargo",
+    "language": "toml",
+    "url": "https://github.com/rust-lang/cargo",
+    "pin": "e7506208ff1b7f01062e410c419f95628dfdb31b",
+    "cohort": 17,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "ruff",
+    "language": "toml",
+    "url": "https://github.com/astral-sh/ruff",
+    "pin": "46b8a6e25574f50d98cb253ce1398600b24e020d",
+    "cohort": 17,
+    "license": "MIT"
+  },
+  {
+    "id": "poetry",
+    "language": "toml",
+    "url": "https://github.com/python-poetry/poetry",
+    "pin": "06f1cd9f2c35d6e7e6689c9e3a51426c024863ed",
+    "cohort": 17,
+    "license": "MIT"
+  },
+  {
+    "id": "starship",
+    "language": "toml",
+    "url": "https://github.com/starship/starship",
+    "pin": "e2d1a2c482fb43667017241dc9802f693628b53d",
+    "cohort": 17,
+    "license": "ISC"
+  },
+  {
+    "id": "containers",
+    "language": "haskell",
+    "url": "https://github.com/haskell/containers",
+    "pin": "0c3b9ee93af23f86fb8ad5ffe7729cb82fc4cd3a",
+    "cohort": 18,
+    "license": "NONE"
+  },
+  {
+    "id": "aeson",
+    "language": "haskell",
+    "url": "https://github.com/haskell/aeson",
+    "pin": "a2cc6a782a9d94141f52fee38d7a569a4d9c5a68",
+    "cohort": 18,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "servant",
+    "language": "haskell",
+    "url": "https://github.com/haskell-servant/servant",
+    "pin": "4f9e7c0dc76bf6ea0423d4d7b80d6a9acd6d31a6",
+    "cohort": 18,
+    "license": "NONE"
+  },
+  {
+    "id": "hspec",
+    "language": "haskell",
+    "url": "https://github.com/hspec/hspec",
+    "pin": "b777918a4911906e038f4796e925b05290d7365d",
+    "cohort": 18,
+    "license": "MIT"
+  },
+  {
+    "id": "pandoc",
+    "language": "haskell",
+    "url": "https://github.com/jgm/pandoc",
+    "pin": "0e1930aced40ace599b0b5de8f562081b9ec831d",
+    "cohort": 18,
+    "license": "GPL-2.0"
+  },
+  {
+    "id": "fmt",
+    "language": "cpp",
+    "url": "https://github.com/fmtlib/fmt",
+    "pin": null,
+    "cohort": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "googletest",
+    "language": "cpp",
+    "url": "https://github.com/google/googletest",
+    "pin": null,
+    "cohort": 15,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "json",
+    "language": "cpp",
+    "url": "https://github.com/nlohmann/json",
+    "pin": null,
+    "cohort": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "abseil-cpp",
+    "language": "cpp",
+    "url": "https://github.com/abseil/abseil-cpp",
+    "pin": null,
+    "cohort": 15,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "godot",
+    "language": "cpp",
+    "url": "https://github.com/godotengine/godot",
+    "pin": null,
+    "cohort": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "dplyr",
+    "language": "r",
+    "url": "https://github.com/tidyverse/dplyr",
+    "pin": "d5e94e7fa8fd4a5f79c1a707d1842216bb4c691f",
+    "cohort": 19,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "ggplot2",
+    "language": "r",
+    "url": "https://github.com/tidyverse/ggplot2",
+    "pin": "4e886647b2dbc3f41a1dd072c063ce0455671cc2",
+    "cohort": 19,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "shiny",
+    "language": "r",
+    "url": "https://github.com/rstudio/shiny",
+    "pin": "81844600fc15f1952838546faa6699d0506ce7f9",
+    "cohort": 19,
+    "license": "NOASSERTION"
+  },
+  {
+    "id": "data.table",
+    "language": "r",
+    "url": "https://github.com/Rdatatable/data.table",
+    "pin": "a3eeb4c0caec51afd66bdf9bbc16817e12a47a40",
+    "cohort": 19,
+    "license": "UNKNOWN"
+  },
+  {
+    "id": "S4Vectors",
+    "language": "r",
+    "url": "https://github.com/Bioconductor/S4Vectors",
+    "pin": "ef821b40304f606aae72ebdf82d039a1536a171b",
+    "cohort": 19,
+    "license": "NONE"
+  }
+]

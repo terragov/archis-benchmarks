@@ -34,6 +34,12 @@ jobs:
             python3 scripts/check_public.py --require-internal-terms
           fi
 
+      - name: Schemas and claims
+        run: python3 scripts/validate.py
+
+      - name: README matches the data
+        run: python3 scripts/build_readme.py --check
+
       # Runs the CLI image directly: gitleaks-action needs a paid licence for
       # organisation repositories.
       - name: Secrets in the tree and the history

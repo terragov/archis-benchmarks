@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/fase_a/cohort<N>.json",
+  "description": "Fase A gates per repository. null: the check did not run for that repository (see the method card).",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "hash_stable",
+      "incremental_equiv",
+      "reduction",
+      "cold_index_s"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "hash_stable": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "incremental_equiv": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "reduction": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "cold_index_s": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0
+      }
+    }
+  }
+}

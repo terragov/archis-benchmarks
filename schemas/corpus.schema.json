@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "corpus.json",
+  "description": "Every repository in the harness manifest, with its pin (null: follows HEAD) and SPDX licence.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "language",
+      "url",
+      "pin",
+      "cohort",
+      "license"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "language": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "url": {
+        "type": "string"
+      },
+      "pin": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "cohort": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "license": {
+        "type": "string"
+      }
+    }
+  }
+}

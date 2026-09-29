@@ -1,0 +1,181 @@
+{
+  "schema_version": "archis-benchmarks.claims.v1",
+  "claims": [
+    {
+      "id": "fase_a.cohort5.repos",
+      "claim": "Cohort 5: repositories indexed",
+      "shown_on": [
+        "README"
+      ],
+      "value": 86,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort5.json",
+      "field": "id",
+      "aggregate": "count",
+      "format": "int",
+      "note": "The website states 94 (a 0.13.0-era cohort file); update it to this."
+    },
+    {
+      "id": "fase_a.cohort5.hash_stable",
+      "claim": "Cohort 5: repositories with a deterministic graph hash",
+      "shown_on": [
+        "README"
+      ],
+      "value": 86,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort5.json",
+      "field": "hash_stable",
+      "aggregate": "count_true",
+      "format": "int"
+    },
+    {
+      "id": "fase_a.cohort5.median_reduction",
+      "claim": "Cohort 5: median representation reduction",
+      "shown_on": [
+        "README"
+      ],
+      "value": 0.7607,
+      "tolerance": 0.0005,
+      "file": "runs/0.47.0/fase_a/cohort5.json",
+      "field": "reduction",
+      "aggregate": "median",
+      "format": "pct1",
+      "note": "The website states ~78% (0.13.0-era); update it to this."
+    },
+    {
+      "id": "fase_a.cohort1.hash_stable",
+      "claim": "Cohort 1: repositories with a deterministic graph hash",
+      "shown_on": [
+        "README"
+      ],
+      "value": 6,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort1.json",
+      "field": "hash_stable",
+      "aggregate": "count_true",
+      "format": "int"
+    },
+    {
+      "id": "fase_a.cohort4.hash_stable",
+      "claim": "Cohort 4: repositories with a deterministic graph hash",
+      "shown_on": [
+        "README"
+      ],
+      "value": 16,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort4.json",
+      "field": "hash_stable",
+      "aggregate": "count_true",
+      "format": "int"
+    },
+    {
+      "id": "fase_a.cohort1.incremental",
+      "claim": "Cohort 1: incremental re-index converges on a clean rebuild",
+      "shown_on": [
+        "README"
+      ],
+      "value": 6,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort1.json",
+      "field": "incremental_equiv",
+      "aggregate": "count_true",
+      "format": "int"
+    },
+    {
+      "id": "fase_a.cohort4.incremental",
+      "claim": "Cohort 4: incremental re-index converges on a clean rebuild",
+      "shown_on": [
+        "README"
+      ],
+      "value": 15,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_a/cohort4.json",
+      "field": "incremental_equiv",
+      "aggregate": "count_true",
+      "format": "int"
+    },
+    {
+      "id": "fase_b.recall_strict",
+      "claim": "Symbol recall, strict, mean over repositories",
+      "shown_on": [
+        "README"
+      ],
+      "value": 0.9862,
+      "tolerance": 0.0005,
+      "file": "runs/0.47.0/fase_b/recall.json",
+      "field": "recall_strict_path",
+      "aggregate": "mean",
+      "format": "pct1"
+    },
+    {
+      "id": "fase_b.recall_lenient",
+      "claim": "Symbol recall, lenient, mean over repositories",
+      "shown_on": [
+        "README"
+      ],
+      "value": 0.9918,
+      "tolerance": 0.0005,
+      "file": "runs/0.47.0/fase_b/recall.json",
+      "field": "recall",
+      "aggregate": "mean",
+      "format": "pct1",
+      "note": "Lenient matching; the website's ~99.5% is the 0.43.0 figure."
+    },
+    {
+      "id": "fase_b.recall_repos",
+      "claim": "Symbol recall: repositories measured",
+      "shown_on": [
+        "README"
+      ],
+      "value": 111,
+      "tolerance": 0,
+      "file": "runs/0.47.0/fase_b/recall.json",
+      "field": "repo",
+      "aggregate": "count",
+      "format": "int"
+    },
+    {
+      "id": "fase_b.calls_recall",
+      "claim": "CALLS recall, mean over repositories",
+      "shown_on": [
+        "README"
+      ],
+      "value": 0.9723,
+      "tolerance": 0.0005,
+      "file": "runs/0.47.0/fase_b/relations.json",
+      "field": "calls_recall",
+      "aggregate": "mean",
+      "format": "pct1"
+    },
+    {
+      "id": "conformance.languages",
+      "claim": "Languages with a support level",
+      "shown_on": [
+        "README"
+      ],
+      "value": 31,
+      "tolerance": 0,
+      "file": "runs/0.47.0/conformance/support_matrix.json",
+      "field": "language",
+      "aggregate": "count",
+      "format": "int",
+      "note": "The website and the product README state 29; update them to this."
+    },
+    {
+      "id": "conformance.stable",
+      "claim": "Languages at STABLE",
+      "shown_on": [
+        "README"
+      ],
+      "value": 2,
+      "tolerance": 0,
+      "file": "runs/0.47.0/conformance/support_matrix.json",
+      "field": "language",
+      "aggregate": "count",
+      "format": "int",
+      "where": {
+        "support_level": "STABLE"
+      }
+    }
+  ]
+}

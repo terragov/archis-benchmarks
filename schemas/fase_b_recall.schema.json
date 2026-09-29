@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/fase_b/recall.json",
+  "description": "Symbol recall per repository against the language's independent oracle.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "repo",
+      "language",
+      "recall",
+      "recall_strict_path",
+      "chi"
+    ],
+    "properties": {
+      "repo": {
+        "type": "string"
+      },
+      "language": {
+        "type": "string"
+      },
+      "recall": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "recall_strict_path": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "recall_structural": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "ctags_decls": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "chi_symbols": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "chi": {
+        "type": "string",
+        "pattern": "^chi \\d+\\.\\d+\\.\\d+$"
+      }
+    }
+  }
+}

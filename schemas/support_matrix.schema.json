@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/conformance/support_matrix.json",
+  "description": "Support level and capability-matrix score per language.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "language",
+      "support_level",
+      "measured_score"
+    ],
+    "properties": {
+      "language": {
+        "type": "string"
+      },
+      "support_level": {
+        "enum": [
+          "STABLE",
+          "PREVIEW",
+          "EXPERIMENTAL",
+          "UNSUPPORTED"
+        ]
+      },
+      "measured_score": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "symbol_recall": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "call_recall": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

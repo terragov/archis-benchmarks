@@ -1,0 +1,21 @@
+{
+  "schema_version": "archis-benchmarks.manifest.v1",
+  "repo": "terragov/archis-benchmarks",
+  "runs": [
+    {
+      "version": "0.47.0",
+      "tag": "run/0.47.0",
+      "kind": "run",
+      "date": "2026-09-23T16:29:57+00:00",
+      "files": 14,
+      "content_sha256": "2b7a1efd7fc6edc8dcf29e6397717eef6c85fcd2f72413fa76231e8921faa75b",
+      "families": {
+        "fase_a": "headline",
+        "fase_b": "headline",
+        "cli_speed": "headline",
+        "conformance": "headline",
+        "infinite": "withdrawn"
+      }
+    }
+  ]
+}
