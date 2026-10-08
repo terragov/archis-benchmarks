@@ -1,0 +1,114 @@
+[
+  {
+    "id": "nest",
+    "cold_index_s": 2.0918,
+    "hash_stable": true,
+    "reduction": 0.6712331918809755,
+    "incremental_equiv": true
+  },
+  {
+    "id": "vue-core",
+    "cold_index_s": 1.6865,
+    "hash_stable": true,
+    "reduction": 0.7215287540728734,
+    "incremental_equiv": true
+  },
+  {
+    "id": "angular",
+    "cold_index_s": 13.4171,
+    "hash_stable": true,
+    "reduction": 0.7259817923142735,
+    "incremental_equiv": true
+  },
+  {
+    "id": "django",
+    "cold_index_s": 5.8624,
+    "hash_stable": true,
+    "reduction": 0.7124920727780427,
+    "incremental_equiv": true
+  },
+  {
+    "id": "fastapi",
+    "cold_index_s": 2.7531,
+    "hash_stable": true,
+    "reduction": 0.7398249059857721,
+    "incremental_equiv": true
+  },
+  {
+    "id": "flask",
+    "cold_index_s": 0.4389,
+    "hash_stable": true,
+    "reduction": 0.6915796928315439,
+    "incremental_equiv": true
+  },
+  {
+    "id": "spring-boot",
+    "cold_index_s": 11.6168,
+    "hash_stable": true,
+    "reduction": 0.6717611093136096,
+    "incremental_equiv": true
+  },
+  {
+    "id": "guava",
+    "cold_index_s": 6.6311,
+    "hash_stable": true,
+    "reduction": 0.7084183836514527,
+    "incremental_equiv": true
+  },
+  {
+    "id": "rxjava",
+    "cold_index_s": 4.6801,
+    "hash_stable": true,
+    "reduction": 0.6937847939259614,
+    "incremental_equiv": true
+  },
+  {
+    "id": "powershell",
+    "cold_index_s": 6.9038,
+    "hash_stable": true,
+    "reduction": 0.8117473169873708,
+    "incremental_equiv": true
+  },
+  {
+    "id": "avalonia",
+    "cold_index_s": 7.9781,
+    "hash_stable": true,
+    "reduction": 0.6988936689890825,
+    "incremental_equiv": true
+  },
+  {
+    "id": "newtonsoft-json",
+    "cold_index_s": 3.0026,
+    "hash_stable": true,
+    "reduction": 0.6647731343648735,
+    "incremental_equiv": true
+  },
+  {
+    "id": "nvm",
+    "cold_index_s": 0.6146,
+    "hash_stable": true,
+    "reduction": 0.831295987652667,
+    "incremental_equiv": true
+  },
+  {
+    "id": "neofetch",
+    "cold_index_s": 0.2152,
+    "hash_stable": true,
+    "reduction": 0.9828532675935006,
+    "incremental_equiv": null
+  },
+  {
+    "id": "tf-aws-vpc",
+    "cold_index_s": 1.5091,
+    "hash_stable": true,
+    "reduction": 0.75406415475782,
+    "incremental_equiv": true
+  },
+  {
+    "id": "tf-aws-eks",
+    "cold_index_s": 0.4851,
+    "hash_stable": true,
+    "reduction": 0.8300716470199722,
+    "incremental_equiv": true
+  }
+]

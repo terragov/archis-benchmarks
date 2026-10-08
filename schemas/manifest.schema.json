@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MANIFEST.json",
+  "description": "Index of the exported runs: one entry per run, newest first.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "repo",
+    "runs"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "archis-benchmarks.manifest.v1"
+      ]
+    },
+    "repo": {
+      "type": "string"
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "version",
+          "tag",
+          "kind",
+          "date",
+          "files",
+          "content_sha256",
+          "families"
+        ],
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          },
+          "tag": {
+            "type": "string",
+            "pattern": "^(run|snapshot)/v?\\d+\\.\\d+\\.\\d+$"
+          },
+          "kind": {
+            "enum": [
+              "run",
+              "snapshot"
+            ]
+          },
+          "date": {
+            "type": "string"
+          },
+          "files": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "families": {
+            "type": "object",
+            "additionalProperties": {
+              "enum": [
+                "headline",
+                "evidence",
+                "withdrawn"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,32 @@
+name: tag merged export
+
+# An export arrives on a branch named export/<tag>. When its pull request is merged,
+# the merge commit gets that tag. Tags run/* and snapshot/* are protected: they can be
+# created, never moved or deleted.
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'export/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+      - name: Tag the merge commit
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          TAG="${HEAD_REF#export/}"
+          case "$TAG" in run/*|snapshot/*) ;; *) echo "not a run tag: $TAG"; exit 1 ;; esac
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "$TITLE"
+          git push origin "$TAG"

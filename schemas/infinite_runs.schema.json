@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/infinite/runs.csv",
+  "description": "Infinite, one row per session (CSV; account columns removed at export).",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "run_id",
+      "level",
+      "arm",
+      "status",
+      "score",
+      "total_tokens"
+    ],
+    "properties": {
+      "run_id": {
+        "type": "string"
+      },
+      "level": {
+        "type": "string"
+      },
+      "arm": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "score": {
+        "type": "string"
+      },
+      "total_tokens": {
+        "type": "string"
+      }
+    }
+  }
+}

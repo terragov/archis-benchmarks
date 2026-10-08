@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/environment.json",
+  "description": "The bench machine.",
+  "type": "object",
+  "required": [
+    "os",
+    "arch",
+    "cpu"
+  ],
+  "properties": {
+    "os": {
+      "type": "string"
+    },
+    "arch": {
+      "type": "string"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "cores": {
+      "type": "integer"
+    },
+    "ram_mb": {
+      "type": "integer"
+    },
+    "tokenizer": {
+      "type": "string"
+    }
+  }
+}

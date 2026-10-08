@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "claims.json",
+  "description": "Each public claim, the file and field it rests on, and how to recompute it.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "claims"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "archis-benchmarks.claims.v1"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "claim",
+          "shown_on",
+          "value",
+          "file",
+          "field",
+          "aggregate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "shown_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "value": {
+            "type": "number"
+          },
+          "tolerance": {
+            "type": "number",
+            "minimum": 0
+          },
+          "file": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "aggregate": {
+            "enum": [
+              "mean",
+              "median",
+              "min",
+              "max",
+              "sum",
+              "count",
+              "count_true",
+              "count_false",
+              "value"
+            ]
+          },
+          "where": {
+            "type": "object"
+          },
+          "format": {
+            "enum": [
+              "pct0",
+              "pct1",
+              "int",
+              "s",
+              "raw"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

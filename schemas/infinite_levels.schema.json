@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/infinite/levels.csv",
+  "description": "Infinite, one row per level and arm (CSV; every value is a string).",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "level",
+      "arm",
+      "files",
+      "repetitions",
+      "successes",
+      "score_mean",
+      "total_tokens"
+    ],
+    "properties": {
+      "level": {
+        "type": "string"
+      },
+      "arm": {
+        "type": "string"
+      },
+      "files": {
+        "type": "string"
+      },
+      "repetitions": {
+        "type": "string"
+      },
+      "successes": {
+        "type": "string"
+      },
+      "score_mean": {
+        "type": "string"
+      },
+      "total_tokens": {
+        "type": "string"
+      }
+    }
+  }
+}

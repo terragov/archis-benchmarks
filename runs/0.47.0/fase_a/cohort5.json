@@ -1,0 +1,604 @@
+[
+  {
+    "id": "swift-argument-parser",
+    "cold_index_s": 0.8454,
+    "hash_stable": true,
+    "reduction": 0.7534756942701718,
+    "incremental_equiv": true
+  },
+  {
+    "id": "swift-tagged",
+    "cold_index_s": 0.2921,
+    "hash_stable": true,
+    "reduction": 0.40993594750820184,
+    "incremental_equiv": true
+  },
+  {
+    "id": "swift-collections",
+    "cold_index_s": 1.8693,
+    "hash_stable": true,
+    "reduction": 0.7986694541395745,
+    "incremental_equiv": true
+  },
+  {
+    "id": "alamofire",
+    "cold_index_s": 2.9164,
+    "hash_stable": true,
+    "reduction": 0.9276358096356111,
+    "incremental_equiv": true
+  },
+  {
+    "id": "swift",
+    "cold_index_s": 49.4765,
+    "hash_stable": true,
+    "reduction": 0.799865098731445,
+    "incremental_equiv": true
+  },
+  {
+    "id": "telegram-ios",
+    "cold_index_s": 100.041,
+    "hash_stable": true,
+    "reduction": 0.8464042174339734,
+    "incremental_equiv": true
+  },
+  {
+    "id": "dart-web",
+    "cold_index_s": 1.3037,
+    "hash_stable": true,
+    "reduction": 0.9091251088924547,
+    "incremental_equiv": true
+  },
+  {
+    "id": "vaden",
+    "cold_index_s": 0.8674,
+    "hash_stable": true,
+    "reduction": 0.7586671451144812,
+    "incremental_equiv": true
+  },
+  {
+    "id": "drift",
+    "cold_index_s": 3.7485,
+    "hash_stable": true,
+    "reduction": 0.7910979527465029,
+    "incremental_equiv": true
+  },
+  {
+    "id": "localsend",
+    "cold_index_s": 2.6209,
+    "hash_stable": true,
+    "reduction": 0.58492252494643,
+    "incremental_equiv": true
+  },
+  {
+    "id": "dart-sdk",
+    "cold_index_s": 83.9085,
+    "hash_stable": true,
+    "reduction": 0.7879082594791251,
+    "incremental_equiv": true
+  },
+  {
+    "id": "flutter",
+    "cold_index_s": 40.7711,
+    "hash_stable": true,
+    "reduction": 0.845295977817885,
+    "incremental_equiv": true
+  },
+  {
+    "id": "dry-monads",
+    "cold_index_s": 0.6613,
+    "hash_stable": true,
+    "reduction": 0.8078106475469994,
+    "incremental_equiv": true
+  },
+  {
+    "id": "secure_headers",
+    "cold_index_s": 0.4616,
+    "hash_stable": true,
+    "reduction": 0.7780060803019184,
+    "incremental_equiv": true
+  },
+  {
+    "id": "jekyll",
+    "cold_index_s": 1.0363,
+    "hash_stable": true,
+    "reduction": 0.736076866818777,
+    "incremental_equiv": true
+  },
+  {
+    "id": "brew",
+    "cold_index_s": 4.5647,
+    "hash_stable": true,
+    "reduction": 0.8522648975612286,
+    "incremental_equiv": true
+  },
+  {
+    "id": "rails",
+    "cold_index_s": 10.2173,
+    "hash_stable": true,
+    "reduction": 0.6994605531053688,
+    "incremental_equiv": true
+  },
+  {
+    "id": "gitlabhq",
+    "cold_index_s": 95.7132,
+    "hash_stable": true,
+    "reduction": 0.825835218825912,
+    "incremental_equiv": true
+  },
+  {
+    "id": "nimble_csv",
+    "cold_index_s": 0.7674,
+    "hash_stable": true,
+    "reduction": 0.8285956019003955,
+    "incremental_equiv": true
+  },
+  {
+    "id": "plug_crypto",
+    "cold_index_s": 0.3172,
+    "hash_stable": true,
+    "reduction": 0.782308024780291,
+    "incremental_equiv": true
+  },
+  {
+    "id": "ecto",
+    "cold_index_s": 1.0077,
+    "hash_stable": true,
+    "reduction": 0.8348907762257941,
+    "incremental_equiv": true
+  },
+  {
+    "id": "phoenix",
+    "cold_index_s": 1.0775,
+    "hash_stable": true,
+    "reduction": 0.7578680061392493,
+    "incremental_equiv": true
+  },
+  {
+    "id": "elixir",
+    "cold_index_s": 2.7574,
+    "hash_stable": true,
+    "reduction": 0.819410324918429,
+    "incremental_equiv": true
+  },
+  {
+    "id": "plausible-analytics",
+    "cold_index_s": 4.9112,
+    "hash_stable": true,
+    "reduction": 0.7203029145048667,
+    "incremental_equiv": true
+  },
+  {
+    "id": "os-lib",
+    "cold_index_s": 0.5362,
+    "hash_stable": true,
+    "reduction": 0.6627295404682475,
+    "incremental_equiv": true
+  },
+  {
+    "id": "cats-parse",
+    "cold_index_s": 0.7153,
+    "hash_stable": true,
+    "reduction": 0.5105253505053798,
+    "incremental_equiv": true
+  },
+  {
+    "id": "cats-effect",
+    "cold_index_s": 1.7436,
+    "hash_stable": true,
+    "reduction": 0.6385204145291985,
+    "incremental_equiv": true
+  },
+  {
+    "id": "zio",
+    "cold_index_s": 5.1415,
+    "hash_stable": true,
+    "reduction": 0.6306084526613386,
+    "incremental_equiv": true
+  },
+  {
+    "id": "spark",
+    "cold_index_s": 47.9499,
+    "hash_stable": true,
+    "reduction": 0.71873148937321,
+    "incremental_equiv": true
+  },
+  {
+    "id": "lila",
+    "cold_index_s": 15.3996,
+    "hash_stable": true,
+    "reduction": 0.6371647145587089,
+    "incremental_equiv": true
+  },
+  {
+    "id": "lua-classic",
+    "cold_index_s": 0.2377,
+    "hash_stable": true,
+    "reduction": 0.5119453924914676,
+    "incremental_equiv": true
+  },
+  {
+    "id": "inspect.lua",
+    "cold_index_s": 0.2506,
+    "hash_stable": true,
+    "reduction": 0.7678780773739742,
+    "incremental_equiv": true
+  },
+  {
+    "id": "apisix",
+    "cold_index_s": 2.2778,
+    "hash_stable": true,
+    "reduction": 0.7703957237282933,
+    "incremental_equiv": true
+  },
+  {
+    "id": "powershellget",
+    "cold_index_s": 0.2576,
+    "hash_stable": true,
+    "reduction": 0.9809766362962431,
+    "incremental_equiv": true
+  },
+  {
+    "id": "runner-images",
+    "cold_index_s": 0.6016,
+    "hash_stable": true,
+    "reduction": 0.8675524660125831,
+    "incremental_equiv": true
+  },
+  {
+    "id": "pester",
+    "cold_index_s": 1.155,
+    "hash_stable": true,
+    "reduction": 0.9460459481100475,
+    "incremental_equiv": true
+  },
+  {
+    "id": "psreadline",
+    "cold_index_s": 0.6857,
+    "hash_stable": true,
+    "reduction": 0.8203389830508474,
+    "incremental_equiv": true
+  },
+  {
+    "id": "dbatools",
+    "cold_index_s": 3.1761,
+    "hash_stable": true,
+    "reduction": 0.9602104247349655,
+    "incremental_equiv": true
+  },
+  {
+    "id": "known-folders",
+    "cold_index_s": 0.333,
+    "hash_stable": true,
+    "reduction": 0.8121807151979565,
+    "incremental_equiv": true
+  },
+  {
+    "id": "zig-clap",
+    "cold_index_s": 0.3438,
+    "hash_stable": true,
+    "reduction": 0.8117368067107917,
+    "incremental_equiv": true
+  },
+  {
+    "id": "bun",
+    "cold_index_s": 38.4922,
+    "hash_stable": true,
+    "reduction": 0.8249039897044647,
+    "incremental_equiv": null
+  },
+  {
+    "id": "libxev",
+    "cold_index_s": 0.6649,
+    "hash_stable": true,
+    "reduction": 0.7160747633373338,
+    "incremental_equiv": true
+  },
+  {
+    "id": "zig",
+    "cold_index_s": 160.411,
+    "hash_stable": true,
+    "reduction": 0.7229775861331671,
+    "incremental_equiv": true
+  },
+  {
+    "id": "tigerbeetle",
+    "cold_index_s": 4.1127,
+    "hash_stable": true,
+    "reduction": 0.778456787606338,
+    "incremental_equiv": true
+  },
+  {
+    "id": "hermitage",
+    "cold_index_s": 0.2851,
+    "hash_stable": true,
+    "reduction": 0.0,
+    "incremental_equiv": null
+  },
+  {
+    "id": "pgroll",
+    "cold_index_s": 1.3447,
+    "hash_stable": true,
+    "reduction": 0.8498440880011047,
+    "incremental_equiv": true
+  },
+  {
+    "id": "liquibase-test-harness",
+    "cold_index_s": 3.2158,
+    "hash_stable": true,
+    "reduction": 0.6551299427458297,
+    "incremental_equiv": true
+  },
+  {
+    "id": "flyway",
+    "cold_index_s": 3.2489,
+    "hash_stable": true,
+    "reduction": 0.7569726478562304,
+    "incremental_equiv": null
+  },
+  {
+    "id": "supabase",
+    "cold_index_s": 39.3894,
+    "hash_stable": true,
+    "reduction": 0.667504610182186,
+    "incremental_equiv": true
+  },
+  {
+    "id": "sql-server-samples",
+    "cold_index_s": 37.8881,
+    "hash_stable": true,
+    "reduction": 0.7408050616289006,
+    "incremental_equiv": false
+  },
+  {
+    "id": "graphql-spec",
+    "cold_index_s": 2.6617,
+    "hash_stable": true,
+    "reduction": 0.7626595595455183,
+    "incremental_equiv": null
+  },
+  {
+    "id": "graphql-over-http",
+    "cold_index_s": 3.3069,
+    "hash_stable": true,
+    "reduction": 0.8122317596566524,
+    "incremental_equiv": null
+  },
+  {
+    "id": "hasura-graphql-engine",
+    "cold_index_s": 42.1707,
+    "hash_stable": true,
+    "reduction": 0.6908712718053903,
+    "incremental_equiv": true
+  },
+  {
+    "id": "kotlin-dsl-samples",
+    "cold_index_s": 2.8361,
+    "hash_stable": true,
+    "reduction": 0.8220790960451978,
+    "incremental_equiv": null
+  },
+  {
+    "id": "gradle-build-scan-quickstart",
+    "cold_index_s": 2.4254,
+    "hash_stable": true,
+    "reduction": 0.819197207678883,
+    "incremental_equiv": null
+  },
+  {
+    "id": "spring-petclinic",
+    "cold_index_s": 3.1181,
+    "hash_stable": true,
+    "reduction": 0.4983761983938869,
+    "incremental_equiv": true
+  },
+  {
+    "id": "gradle-profiler",
+    "cold_index_s": 3.1059,
+    "hash_stable": true,
+    "reduction": 0.6127409517873836,
+    "incremental_equiv": true
+  },
+  {
+    "id": "gradle",
+    "cold_index_s": 52.2591,
+    "hash_stable": true,
+    "reduction": 0.7005187099481991,
+    "incremental_equiv": true
+  },
+  {
+    "id": "elasticsearch",
+    "cold_index_s": 138.8311,
+    "hash_stable": true,
+    "reduction": 0.6988492339360353,
+    "incremental_equiv": true
+  },
+  {
+    "id": "maven-mvnd",
+    "cold_index_s": 0.7707,
+    "hash_stable": true,
+    "reduction": 0.6730821812464753,
+    "incremental_equiv": null
+  },
+  {
+    "id": "maven-wrapper",
+    "cold_index_s": 0.6068,
+    "hash_stable": true,
+    "reduction": 0.7200707151599401,
+    "incremental_equiv": null
+  },
+  {
+    "id": "maven",
+    "cold_index_s": 8.3197,
+    "hash_stable": true,
+    "reduction": 0.6741984834796457,
+    "incremental_equiv": null
+  },
+  {
+    "id": "junit5",
+    "cold_index_s": 3.3474,
+    "hash_stable": true,
+    "reduction": 0.6692500989982222,
+    "incremental_equiv": null
+  },
+  {
+    "id": "spring-framework",
+    "cold_index_s": 18.0746,
+    "hash_stable": true,
+    "reduction": 0.7076131807329944,
+    "incremental_equiv": null
+  },
+  {
+    "id": "flink",
+    "cold_index_s": 38.3203,
+    "hash_stable": true,
+    "reduction": 0.7328364176656726,
+    "incremental_equiv": null
+  },
+  {
+    "id": "docker-getting-started",
+    "cold_index_s": 1.4614,
+    "hash_stable": true,
+    "reduction": 0.27676122018130234,
+    "incremental_equiv": true
+  },
+  {
+    "id": "awesome-compose",
+    "cold_index_s": 1.5447,
+    "hash_stable": true,
+    "reduction": 0.6795460466327993,
+    "incremental_equiv": true
+  },
+  {
+    "id": "realworld",
+    "cold_index_s": 0.4874,
+    "hash_stable": true,
+    "reduction": 0.7738247349119692,
+    "incremental_equiv": null
+  },
+  {
+    "id": "immich",
+    "cold_index_s": 4.7346,
+    "hash_stable": true,
+    "reduction": 0.7431975483499843,
+    "incremental_equiv": true
+  },
+  {
+    "id": "docker-compose",
+    "cold_index_s": 1.1551,
+    "hash_stable": true,
+    "reduction": 0.7147911403493898,
+    "incremental_equiv": true
+  },
+  {
+    "id": "podinfo",
+    "cold_index_s": 0.4917,
+    "hash_stable": true,
+    "reduction": 0.7157224207968629,
+    "incremental_equiv": true
+  },
+  {
+    "id": "helm-examples",
+    "cold_index_s": 0.3189,
+    "hash_stable": true,
+    "reduction": 0.6033653846153846,
+    "incremental_equiv": true
+  },
+  {
+    "id": "bitnami-charts",
+    "cold_index_s": 4.2671,
+    "hash_stable": true,
+    "reduction": 0.9470132311082584,
+    "incremental_equiv": true
+  },
+  {
+    "id": "prometheus-helm-charts",
+    "cold_index_s": 1.1813,
+    "hash_stable": true,
+    "reduction": 0.9617371712895183,
+    "incremental_equiv": true
+  },
+  {
+    "id": "openshift-origin",
+    "cold_index_s": 5.0848,
+    "hash_stable": true,
+    "reduction": 0.8957273721531503,
+    "incremental_equiv": true
+  },
+  {
+    "id": "hello-world-javascript-action",
+    "cold_index_s": 0.3321,
+    "hash_stable": true,
+    "reduction": 0.5562554300608167,
+    "incremental_equiv": null
+  },
+  {
+    "id": "setup-python",
+    "cold_index_s": 0.3799,
+    "hash_stable": true,
+    "reduction": 0.7806054267619545,
+    "incremental_equiv": null
+  },
+  {
+    "id": "actions-cache",
+    "cold_index_s": 0.2969,
+    "hash_stable": true,
+    "reduction": 0.7708816705336428,
+    "incremental_equiv": null
+  },
+  {
+    "id": "super-linter",
+    "cold_index_s": 0.7581,
+    "hash_stable": true,
+    "reduction": 0.8009625630035797,
+    "incremental_equiv": null
+  },
+  {
+    "id": "rust",
+    "cold_index_s": 57.1126,
+    "hash_stable": true,
+    "reduction": 0.7998968561754198,
+    "incremental_equiv": null
+  },
+  {
+    "id": "openapi-specification",
+    "cold_index_s": 0.519,
+    "hash_stable": true,
+    "reduction": 0.7068641339343207,
+    "incremental_equiv": null
+  },
+  {
+    "id": "swagger-petstore",
+    "cold_index_s": 0.3189,
+    "hash_stable": true,
+    "reduction": 0.7002440249766742,
+    "incremental_equiv": null
+  },
+  {
+    "id": "protovalidate",
+    "cold_index_s": 1.0965,
+    "hash_stable": true,
+    "reduction": 0.76832027054818,
+    "incremental_equiv": true
+  },
+  {
+    "id": "grpc-proto",
+    "cold_index_s": 0.3167,
+    "hash_stable": true,
+    "reduction": 0.7486729808492922,
+    "incremental_equiv": true
+  },
+  {
+    "id": "googleapis",
+    "cold_index_s": 13.3658,
+    "hash_stable": true,
+    "reduction": 0.8195671109422825,
+    "incremental_equiv": true
+  },
+  {
+    "id": "kubernetes-api",
+    "cold_index_s": 4.8991,
+    "hash_stable": true,
+    "reduction": 0.8028604651459534,
+    "incremental_equiv": true
+  }
+]

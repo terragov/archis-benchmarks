@@ -1,0 +1,89 @@
+{
+  "schema_version": "archis-benchmarks.run.v1",
+  "version": "0.47.0",
+  "tag": "run/0.47.0",
+  "kind": "run",
+  "date": "2026-09-23T16:29:57+00:00",
+  "chi_version": "chi 0.47.0",
+  "harness": {
+    "public": false,
+    "note": "Harness code is published one or two releases after the results it produced; until then the method cards describe it."
+  },
+  "families": {
+    "fase_a": {
+      "status": "headline",
+      "binary_attribution": "run-report",
+      "notes": [
+        "Rows carry no binary stamp; they are attributed to this run because the run's report lists them as re-measured with this binary.",
+        "cold_index_s is a single sample per repository (n = 1) and is published as evidence, not as a headline figure."
+      ],
+      "method": "methods/fase_a.md",
+      "files": [
+        "fase_a/cohort1.json",
+        "fase_a/cohort2.json",
+        "fase_a/cohort4.json",
+        "fase_a/cohort5.json",
+        "fase_a/cohort5_languages.json"
+      ]
+    },
+    "fase_b": {
+      "status": "headline",
+      "binary_attribution": "row-stamp",
+      "notes": [
+        "Only rows stamped with this run's binary are exported.",
+        "Precision is published as evidence: its checks can confirm an edge from a comment or a string, so it is not a lower bound."
+      ],
+      "method": "methods/fase_b.md",
+      "files": [
+        "fase_b/precision.json",
+        "fase_b/recall.json",
+        "fase_b/relations.json"
+      ]
+    },
+    "cli_speed": {
+      "status": "headline",
+      "binary_attribution": "file-stamp",
+      "withdrawn_commands": {
+        "index (one file changed)": "The harness writes the same bytes on every pass, so only the first of the three passes changes the file; the median measures the unchanged-content path."
+      },
+      "method": "methods/cli_speed.md",
+      "files": [
+        "cli_speed.json"
+      ]
+    },
+    "conformance": {
+      "status": "headline",
+      "binary_attribution": "run-report",
+      "method": "methods/conformance.md",
+      "files": [
+        "conformance/support_matrix.json"
+      ]
+    },
+    "infinite": {
+      "status": "withdrawn",
+      "binary_attribution": "file-stamp",
+      "reason": "The answer keys for the first, second and fourth levels of the ladder grade files other than the ones the prompt asked about (a seed rename reshuffled the levels and the oracle cache did not notice). Savings figures from this run are withdrawn until the runs are re-graded with rebuilt keys.",
+      "method": "methods/infinite.md",
+      "files": [
+        "infinite/levels.csv",
+        "infinite/runs.csv"
+      ]
+    }
+  },
+  "corrections": [
+    {
+      "file": "fase_a/cohort5.json",
+      "match": {
+        "id": "sql-server-samples"
+      },
+      "before": {
+        "incremental_equiv": true
+      },
+      "after": {
+        "incremental_equiv": false
+      },
+      "evidence": "incremental.equivalence_after_sequence.equal in the run's sql-server-samples/fase_a record",
+      "reason": "The cohort summary says the incremental re-index converged; the repository's own Fase A record has the incremental hash and the clean-rebuild hash different. The summary was restored from an earlier pass after a re-measure. The run report also counts it as a failure (65 of 66)."
+    }
+  ]
+}

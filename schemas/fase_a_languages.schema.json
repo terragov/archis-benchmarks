@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runs/<v>/fase_a/cohort5_languages.json",
+  "description": "What Archis extracted in cohort 5, per language, and the gate verdicts per repository.",
+  "type": "object",
+  "required": [
+    "languages",
+    "verdicts"
+  ],
+  "properties": {
+    "languages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "files",
+          "symbols"
+        ],
+        "properties": {
+          "files": {
+            "type": "integer"
+          },
+          "symbols": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "verdicts": {
+      "type": "object"
+    },
+    "missing_db": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

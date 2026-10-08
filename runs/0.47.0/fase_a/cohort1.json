@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gin",
+    "cold_index_s": 0.7206,
+    "hash_stable": true,
+    "reduction": 0.7274696595700916,
+    "incremental_equiv": true
+  },
+  {
+    "id": "caddy",
+    "cold_index_s": 0.9636,
+    "hash_stable": true,
+    "reduction": 0.8227969110045463,
+    "incremental_equiv": true
+  },
+  {
+    "id": "prometheus",
+    "cold_index_s": 3.4823,
+    "hash_stable": true,
+    "reduction": 0.7549605285894008,
+    "incremental_equiv": true
+  },
+  {
+    "id": "arch-samples",
+    "cold_index_s": 0.4315,
+    "hash_stable": true,
+    "reduction": 0.7136521022258862,
+    "incremental_equiv": true
+  },
+  {
+    "id": "detekt",
+    "cold_index_s": 2.7359,
+    "hash_stable": true,
+    "reduction": 0.5811509712524611,
+    "incremental_equiv": true
+  },
+  {
+    "id": "coroutines",
+    "cold_index_s": 2.0161,
+    "hash_stable": true,
+    "reduction": 0.6594093631070758,
+    "incremental_equiv": true
+  }
+]
