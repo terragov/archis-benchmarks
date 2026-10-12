@@ -1,0 +1,26 @@
+{
+  "os": "Darwin 26.6.2",
+  "arch": "arm64",
+  "cpu": "Apple M5 Pro",
+  "cores": 18,
+  "ram_mb": 49152,
+  "filesystem": "/",
+  "containerized": false,
+  "python": "3.14.7",
+  "chi_version": {
+    "chi_schema_version": "chi.core.v2",
+    "chi_core_version": "chi.core.v1",
+    "language_frontend_version": "generic.v1",
+    "language_extension_version": "ext.v1",
+    "capability_registry_version": "caps.v2",
+    "semantic_coverage_formula_version": "v1",
+    "retrieval_policy_version": "retrieval.v1",
+    "context_policy_version": "context.v1",
+    "runtime_version": "runtime.v1",
+    "patch_engine_version": "patch.v1",
+    "benchmark_version": "bench.v2",
+    "taskset_version": "taskset.v1",
+    "grader_version": "grader.v1"
+  },
+  "tokenizer": "tiktoken/o200k_base"
+}
