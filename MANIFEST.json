@@ -3,6 +3,21 @@
   "repo": "terragov/archis-benchmarks",
   "runs": [
     {
+      "version": "0.49.0",
+      "tag": "run/0.49.0",
+      "kind": "run",
+      "date": "2026-10-05T15:39:02+00:00",
+      "files": 14,
+      "content_sha256": "546ca6c5f698f1218de366dd0af30ce2583a07baa26a7b322ba2ed4aa44fffb5",
+      "families": {
+        "fase_a": "headline",
+        "fase_b": "headline",
+        "cli_speed": "headline",
+        "conformance": "headline",
+        "infinite": "withdrawn"
+      }
+    },
+    {
       "version": "0.47.0",
       "tag": "run/0.47.0",
       "kind": "run",
